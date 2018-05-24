@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Q-Learning"
-tags: [Tensorflow, Reinforcement Learning, feature columns]
+tags: [Reinforcement Learning]
 comments: true
 ---
 
