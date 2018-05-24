@@ -5,9 +5,9 @@ tags: [Reinforcement Learning]
 comments: true
 ---
 
-요즘 저는 강화학습에 대한 공부가 한창인데요. 오늘을 강화학습의 중요한 알고리즘 중 하나인 Q-learning에 대해 포스팅을 해보려고 합니다. 이 포스팅을 이해하시려면 강화학습의 기본적인 개념들과 action, state, reward에 대한 개념을 아셔야 된다고 생각됩니다. 만약기회가 된다면 해당되는 개념들에 대해 따로 정리해보는 시간을 가져보도록하겠습니다.
+요즘 저는 **강화학습**에 대한 공부가 한창인데요. 오늘을 강화학습의 중요한 알고리즘 중 하나인 **Q-learning**에 대해 포스팅을 해보려고 합니다. 이 포스팅을 이해하시려면 강화학습의 기본적인 개념들과 `action, state, reward`에 대한 개념을 아셔야 된다고 생각됩니다. 만약기회가 된다면 해당되는 개념들에 대해 따로 정리해보는 시간을 가져보도록하겠습니다.
 
-이제 본격적으로 Q-learning에 대해 알아보도록 하겠습니다. Q-learning 이란 action-value function 값을 업데이트 해주면서 가장 나은 action을 취해주는 알고리즘입니다. 오늘은 Frozenlake 문제를 Q-learning에 한번 적용해 보는 시간을 가져보도록하겠습니다.
+이제 본격적으로 **Q-learning**에 대해 알아보도록 하겠습니다. **Q-learning 이란 action-value function 값을 업데이트 해주면서 가장 나은 action을 취해주는 알고리즘입니다.** 오늘은 Frozenlake 문제를 Q-learning에 한번 적용해 보는 시간을 가져보도록하겠습니다.
 
 간단하게 FrozenLake Environment에 대해 설명드리겠습니다. 
 
@@ -15,7 +15,7 @@ agent, 즉 action을 당할 놈은 초록색에서 시작을 해서 저기있는
 
 ![frozen Lake WorldS](https://jaehwant.github.io/assets/images/DRL_01_00.png)
 
-OpenAI Gym 에 있는 FrozenLake-v0 의 Environment 이고 agent가 있을 수 있는 state가 총 16개 밖에 되지 않습니다 action 또한 4개밖에 되지 않기 때문에 Q-table을 이용해도 정상적으로 학습이 진행 될 것 입니다.
+OpenAI Gym 에 있는 FrozenLake-v0 의 Environment 이고 agent가 있을 수 있는 state가 총 16개 밖에 되지 않습니다 action 또한 4개밖에 되지 않기 때문에 Q-table을 이용해도 정상적으로 학습이 진행 될 것 입니다. 아래 코드에 주석을 보시면 이해하시기 편하실 것 .
 
 ```python
 import gym
