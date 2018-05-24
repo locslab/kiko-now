@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tensorflow Dataset API 두번째 이야기"
-tags: [Tensorflow, Dataset API]
+tags: [Tensorflow, Deep Learning, Dataset API]
 comments: true
 ---
 
