@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tensorflow feature columns 첫번째 이야기"
-tags: [Tensorflow, feature columns]
+tags: [Tensorflow, Deep Learning, feature columns]
 comments: true
 ---
 
