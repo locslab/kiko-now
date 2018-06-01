@@ -12,7 +12,7 @@ comments: true
 
 bulk.json 파일을 elastic search에 삽입(POST)하고 조회(GET)하는 명령어와 결과입니다.
 
-![frozen Lake WorldS](./images/taehyun_image01.png)
+![frozen Lake WorldS](../images/taehyun_image01.png)
 
 
 
@@ -31,19 +31,19 @@ bulk.json 파일을 elastic search에 삽입(POST)하고 조회(GET)하는 명�
 
 **1) 먼저 매핑을 지정할 인덱스를 하나 생성합니다.**
 
-![frozen Lake WorldS](./images/taehyun_image02.png)
+![frozen Lake WorldS](../images/taehyun_image02.png)
 
 
 **2) mappingTest.json 파일로 매핑을 지정합니다.**
 
 - mappingTest.json 파일 내용입니다.
 
-![frozen Lake WorldS](./images/taehyun_image03.png)
+![frozen Lake WorldS](../images/taehyun_image03.png)
 
 
 - 매핑 지정 명령어입니다.
 
-![frozen Lake WorldS](./images/taehyun_image04.png)
+![frozen Lake WorldS](../images/taehyun_image04.png)
 
 
 
@@ -55,15 +55,15 @@ bulk.json 파일을 elastic search에 삽입(POST)하고 조회(GET)하는 명�
 
 - 매핑된 결과 출력입니다.
 
-![frozen Lake WorldS](./images/taehyun_image05.png)
+![frozen Lake WorldS](../images/taehyun_image05.png)
 
 
 **3) bulk(json형태로 한번에 입력)을 사용하여 해당 인덱스에 데이터를 입력합니다.**
 
-![frozen Lake WorldS](./images/taehyun_image06.png)
+![frozen Lake WorldS](../images/taehyun_image06.png)
 
 
 - 데이터가 들어갔는지 확인합니다.
 
-![frozen Lake WorldS](./images/taehyun_image07.png)
+![frozen Lake WorldS](../images/taehyun_image07.png)
 
