@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bulk_Mapping"
+title: "Elastic Search (Bulk, Mapping)"
 tags: [Elastic Search]
 comments: true
 ---
