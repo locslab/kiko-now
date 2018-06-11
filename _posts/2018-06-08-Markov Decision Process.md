@@ -6,9 +6,8 @@ comments: true
 ---
 
 오늘은 **Markov Decision Process**에 대해서 간략히 알아보겠습니다. Markov는 1800년대의 러시아 수학자의 이름입니다. 이 분의 이름이 하나의 형용사가 되었는데 그 의미는 다음과 같습니다.
-<center>
+
 ![수식](https://dnddnjs.gitbooks.io/rl/content/216050d8baf8170c242d70f2e19803fa.png)
-</center>
 
 뒤에서 **state**와 **value**에 대해서 설명하겠습니다.
 위의 첫 식처럼 처음 어떠한 상태로부터 시작해서 현재 상태까지 올 확률이 바로 전 상태에서 현재 상태까지 올 확률과 같을 때, 두 번째 식처럼 표현이 될 수 있고 `state는 Markov하다고` 일컬어질 수 있습니다.
@@ -36,9 +35,8 @@ agent가 action을 취하면 그에 따른 reward를 "environment"가 agent에�
 
 이렇듯 agent는 action을 취하고 state를 옮기고 reward를 받고 하면서 environment와 상호작용을 하는데 
 
-<center>
 ![강화학습 예시](https://dnddnjs.gitbooks.io/rl/content/da301af067262a7d688e281d4bade22f.png)
-</center>
+
 agent가 observation을 통해서 자신의 state를 알게되면 그 state에 맞는 action을 취하게 됩니다. 학습을 하지 않은 초기에는 random action을 취합니다. 그러면 environment가 agent에게 reward와 다음 state를 알려주게 됩니다. 시뮬레이터나 게임이 environment가 될 수도 있고 실재 세상이 environment가 될 수도 있습니다.
 
 지금까지 강화학습의 기초 개념들에 대해서 알아보았습니다. 강화학습은 상당히 복잡하여 앞으로 배워야할 개념들이 많지만 오늘 포스팅한 Action, Reward, State의 개념들은 반드시 알아두시면 좋을듯합니다.
