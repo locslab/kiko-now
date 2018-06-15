@@ -15,7 +15,7 @@ ex) 최대값, 최소값, 평균값 등을 구할때 사용합니다.
 
 **샘플 데이터(json) 내용은 아래와 같습니다.**
 
-![frozen Lake WorldS](../images/ELK_posts_image00.png)
+![frozen Lake WorldS](../images/ELK_posts_image01.png)
 
 
 
