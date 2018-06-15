@@ -8,12 +8,18 @@ comments: true
 **Metric Aggregation이란?**
 
 
-elastic search안에 있는 `document 안에서 조합을 통해서 어떠한 값을 도출할때 쓰이는 방법으로 그 중 metric aggregations는 산술할 때` 쓰입니다.
+`Document 안에서 조합을 통해 특정(산술) 값을 도출할때 쓰이는 방법`
 
-예를 들면 최댓값, 최솟값, 평균값 등을 구할때 이용합니다. 
+ex) 최대값, 최소값, 평균값 등을 구할때 사용합니다. 
 
 
-**다음은 aggregation의 포맷입니다.**
+**샘플 데이터(json) 내용은 아래와 같습니다.**
+
+![frozen Lake WorldS](../images/ELK_posts_image00.png)
+
+
+
+**아래는 Aggregation의 포맷입니다.**
 
 ![frozen Lake WorldS](../images/ELK_posts_image01.png)
 
