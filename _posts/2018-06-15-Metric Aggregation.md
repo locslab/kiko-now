@@ -13,59 +13,55 @@ elastic search안에 있는 `document 안에서 조합을 통해서 어떠한 �
 예를 들면 최댓값, 최솟값, 평균값 등을 구할때 이용합니다. 
 
 
+**다음은 aggregation의 포맷입니다.**
 
-![frozen Lake WorldS](../images/taehyun_image01.png)
-
-
-
+![frozen Lake WorldS](../images/ELK_posts_image01.png)
 
 
 
+**1. 평균값을 구하는 aggregation 설정 파일(avg_points_aggs.json) 내용을 살펴보겠습니다.**
 
 
-**엘라스틱서치 매핑(Mapping)**
+![frozen Lake WorldS](../images/ELK_posts_image02.png)
 
 
-매핑은 관계형데이터베이스에서 스키마 개념과 동일합니다.
-
-데이터 매핑을 지정하는 방법은 아래와 같습니다.
+![frozen Lake WorldS](../images/ELK_posts_image03.png)
 
 
-**1) 먼저 매핑을 지정할 인덱스를 하나 생성합니다.**
-
-![frozen Lake WorldS](../images/taehyun_image02.png)
+**2. 최대값을 구하는 aggregation 설정 파일(max_points_aggs.json) 입니다.**
 
 
-**2) mappingTest.json 파일로 매핑을 지정합니다.**
-
-- mappingTest.json 파일 내용입니다.
-
-![frozen Lake WorldS](../images/taehyun_image03.png)
+![frozen Lake WorldS](../images/ELK_posts_image04.png)
 
 
-- 매핑 지정 명령어입니다.
-
-![frozen Lake WorldS](../images/taehyun_image04.png)
+![frozen Lake WorldS](../images/ELK_posts_image05.png)
 
 
 
+**3. 최소값을 구하는 aggregation 설정 파일(min_points_aggs.json) 입니다.**
+
+
+![frozen Lake WorldS](../images/ELK_posts_image06.png)
+
+
+![frozen Lake WorldS](../images/ELK_posts_image07.png)
+
+
+**4. 합계를 구하는 aggregation 설정 파일(sum_points_aggs.json) 입니다.**
+
+
+![frozen Lake WorldS](../images/ELK_posts_image08.png)
+
+
+![frozen Lake WorldS](../images/ELK_posts_image09.png)
 
 
 
+**5. 다음은 위에서 수행한 모든 계산값들을 한번에 구하는 파일(stats_points_aggs.json) 입니다.**
 
 
-
-- 매핑된 결과 출력입니다.
-
-![frozen Lake WorldS](../images/taehyun_image05.png)
+![frozen Lake WorldS](../images/ELK_posts_image10.png)
 
 
-**3) bulk(json형태로 한번에 입력)을 사용하여 해당 인덱스에 데이터를 입력합니다.**
-
-![frozen Lake WorldS](../images/taehyun_image06.png)
-
-
-- 데이터가 들어갔는지 확인합니다.
-
-![frozen Lake WorldS](../images/taehyun_image07.png)
+![frozen Lake WorldS](../images/ELK_posts_image11.png)
 
