@@ -12,8 +12,9 @@ comments: true
 
 
 
-## **1. 먼저 인덱스에 샘플 데이터를 삽입합니다.**
+## **1. 인덱스 샘플 데이터 삽입**
 
+먼저 인덱스에 샘플 데이터를 삽입해보도록 하겠습니다.
 2개의 팀(Chicago, LA)에 대한 데이터 입니다.
 
 
@@ -25,9 +26,10 @@ comments: true
 
 
 
-## **2. 다음은 Bucket Aggregation을 하기위한, term aggregation.json 파일입니다. **
+## **2. Bucket Aggregation 파일 생성(term aggregation.json)**
 
-아래 파일은 플레이어의 팀 단위로 그룹을 생성하기 위함입니다.
+Bucket Aggregation을 하기위한, term aggregation.json 파일을 아래와 같이 생성합니다.
+term aggregation.json 파일은 플레이어의 팀 단위로 그룹을 생성하기 위함입니다.
 
 ![frozen Lake WorldS](../images/ELK_posts_image18.png)
 
@@ -38,8 +40,9 @@ term aggregation의 결과로 chicago는 Document 2개, la또한 Document 2개�
 여기서 팀을 분류하기에 끝이 아니라 팀별 성적을 구해보도록 하겠습니다.
 
 
-## **3. 그룹으로 묶인 데이터를 간단하게 분석해보겠습니다.**
+## **3. 간단한 데이터 분석**
 
+그룹(팀)으로 묶인 데이터를 간단하게 분석해보겠습니다.
 아래 파일은 팀별로 성적을 구하는 파일입니다.
 팀별로 Document를 그룹으로 묶은 다음에 각 팀별로 통계(성적) 분석을 합니다.
 
