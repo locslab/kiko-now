@@ -9,7 +9,7 @@ comments: true
 
 아래 링크에서 DEB 파일을 먼저 다운로드 합니다.
 
-[](https://www.elastic.co/downloads/kibana)
+<https://www.elastic.co/downloads/kibana>
 
 ## **2. Install Kibana**
 
